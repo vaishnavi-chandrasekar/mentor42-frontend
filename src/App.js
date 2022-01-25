@@ -35,7 +35,7 @@ function App() {
                  <Route path="/Edit/:id" element={<Edit />}></Route> 
                  <Route path="/Home" element={<Home />}></Route>     
                   <Route path="/Delete/:id" element={<Delete />}></Route>
-                 <Route path="/Addmentor/:id" element={<Assign/>}></Route>       
+                 <Route path="/Assign/:id" element={<Assign/>}></Route>       
       
 
               </Routes> 

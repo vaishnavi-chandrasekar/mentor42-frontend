@@ -61,7 +61,7 @@ export default function Dashboard() {
                         <td>{user.StudentName}</td>
                         <td>{user.Subject}</td>
                         <td>
-                        <Link to={`/Assign/${user._id}`}> <button className='btn btn-primary btn-sm'>Addmentor</button></Link>
+                        <Link to={`/Assign/${user._id}`}> <button className='btn btn-primary btn-sm'>Assign</button></Link>
                             <Link to={`/Delete/${user._id}`}><button className='btn btn-danger btn-sm'>Delete</button></Link>
                         </td>
                         </tr>
